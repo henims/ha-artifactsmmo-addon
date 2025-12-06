@@ -1,0 +1,24 @@
+name: "ArtifactsMMO Bot"
+description: "Automated bot for ArtifactsMMO game with web dashboard"
+version: "1.0.0"
+slug: "artifacts-mmo-bot"
+url: "https://github.com/henims/ha-artifactsmmo-addon"
+image: ghcr.io/henims/artifacts-mmo-bot/{arch}
+arch:
+  - amd64
+  - aarch64
+  - armv7
+init: false
+ingress: true
+ingress_port: 8099
+ingress_stream: true
+panel_icon: "mdi:robot"
+panel_title: "ArtifactsMMO"
+options:
+  api_token: ""
+schema:
+  api_token: str
+startup: application
+map:
+  - config:rw
+  - share:rw
