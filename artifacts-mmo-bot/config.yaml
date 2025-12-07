@@ -1,6 +1,6 @@
 name: "ArtifactsMMO Bot"
 description: "Automated bot for ArtifactsMMO game with web dashboard"
-version: "1.0.0"
+version: "latest"
 slug: "artifacts-mmo-bot"
 url: "https://github.com/henims/ha-artifactsmmo-addon"
 image: ghcr.io/henims/artifacts-mmo-bot/{arch}
